@@ -1,5 +1,5 @@
 import java.sql.*;
-import javax.swing.*;
+
 public class processes extends JFrame {
    private String url = "jdbc:mysql://localhost/vetpet";
 	private String user = "root";
@@ -15,6 +15,7 @@ public class processes extends JFrame {
 			e.printStackTrace();
 		}
     }
+
     
     
 }
