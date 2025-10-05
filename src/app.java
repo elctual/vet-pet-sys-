@@ -5,11 +5,9 @@ public class app {
         utils mainWindow = new utils();
         
         // Initialize the database connection and processes
-        processes dbProcesses = new processes();
+        db dbchild = new db();
         
         // Set the visibility of the main window
         mainWindow.setVisible(true);
-        
-        // Additional setup or operations can be added here
     }
 }
